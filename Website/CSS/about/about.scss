@@ -1,4 +1,4 @@
-@import '../Mixins/viewports';
+ @import '../Mixins/viewports';
 @import '../Mixins/flex';
 
 .highlight {
@@ -99,9 +99,9 @@ main {
                 margin: 5em;
 
                 sub {
-                    font-size: 1em;
+                    font-size: 1.2em;
                     font-weight: 600;
-                    line-height: 2em;
+                    line-height: 3em;
                     color: #9E9E9E;
                 }
             }
@@ -155,8 +155,13 @@ main {
 
                 .bio {
                     text-align: center;
+                    align-self: baseline;
+                    height: 400px;
+                    width: 300px;
                     img {
                         height: 10vw;
+                        border: .1px solid #9E9E9E;
+                        border-radius: 100px;
                     }
                     h6 {
                         color: black;
@@ -194,6 +199,7 @@ main {
             img {
                 height: 80vh;
                 margin: 0 0 0 8%;
+                border-radius: 20px;
             }
             aside {
                 padding: 5% 0;

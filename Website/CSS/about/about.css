@@ -104,9 +104,9 @@ main #section1 #content1 .container {
   margin: 5em;
 }
 main #section1 #content1 .container sub {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
-  line-height: 2em;
+  line-height: 3em;
   color: #9E9E9E;
 }
 main #section2 #content2 {
@@ -162,9 +162,14 @@ main #section2 #content2 #intro_container {
 }
 main #section2 #content2 #intro_container .bio {
   text-align: center;
+  align-self: baseline;
+  height: 400px;
+  width: 300px;
 }
 main #section2 #content2 #intro_container .bio img {
   height: 10vw;
+  border: 0.1px solid #9E9E9E;
+  border-radius: 100px;
 }
 main #section2 #content2 #intro_container .bio h6 {
   color: black;
@@ -202,6 +207,7 @@ main #section4 #content4 {
 main #section4 #content4 img {
   height: 80vh;
   margin: 0 0 0 8%;
+  border-radius: 20px;
 }
 main #section4 #content4 aside {
   padding: 5% 0;

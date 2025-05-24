@@ -284,6 +284,7 @@ main #section4 #content4 {
 main #section4 #content4 img {
   height: 80vh;
   margin: 0 0 0 8%;
+  border-radius: 20px;
 }
 main #section4 #content4 aside {
   padding: 5% 0;
