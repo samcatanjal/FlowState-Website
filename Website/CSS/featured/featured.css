@@ -77,6 +77,48 @@ header #userSign button:hover {
   cursor: pointer;
 }
 
+.page-cont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ED8E1F;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured {
+  display: grid;
+  padding: 3rem 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.featured .feats {
+  background-color: #211d1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(35, 35, 35);
+  transition: transform 0.2s ease;
+}
+.featured .feats:hover {
+  transform: translateY(-5px);
+}
+.featured .feats h3 {
+  color: #f7941d;
+  margin-bottom: 0.5rem;
+}
+.featured .feats p {
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 footer {
   width: 100%;
   background-color: #211d1a;
